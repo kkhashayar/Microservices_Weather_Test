@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.Report\\CloudWeather.Report.csproj",
+      "projectUniqueName": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.Report\\CloudWeather.Report.csproj",
       "projectName": "CloudWeather.Report",
-      "projectPath": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.Report\\CloudWeather.Report.csproj",
+      "projectPath": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.Report\\CloudWeather.Report.csproj",
       "packagesPath": "C:\\Users\\Khash\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.Report\\obj\\",
+      "outputPath": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.Report\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Khash\\AppData\\Roaming\\NuGet\\NuGet.Config",

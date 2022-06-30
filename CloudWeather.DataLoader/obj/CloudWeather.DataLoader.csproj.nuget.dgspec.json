@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.DataLoader\\CloudWeather.DataLoader.csproj": {}
+    "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.DataLoader\\CloudWeather.DataLoader.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.DataLoader\\CloudWeather.DataLoader.csproj": {
+    "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.DataLoader\\CloudWeather.DataLoader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.DataLoader\\CloudWeather.DataLoader.csproj",
+        "projectUniqueName": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.DataLoader\\CloudWeather.DataLoader.csproj",
         "projectName": "CloudWeather.DataLoader",
-        "projectPath": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.DataLoader\\CloudWeather.DataLoader.csproj",
+        "projectPath": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.DataLoader\\CloudWeather.DataLoader.csproj",
         "packagesPath": "C:\\Users\\Khash\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.DataLoader\\obj\\",
+        "outputPath": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.DataLoader\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Khash\\AppData\\Roaming\\NuGet\\NuGet.Config",

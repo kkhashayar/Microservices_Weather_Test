@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BWS7TcH7mOkgUUpGTrmuJADVdM1j8AMSOegBNZLVf5lDtFlwhD1auXA8E0IlXU4NJCf4fXItSPAG1MdaOvDj8A==",
+  "dgSpecHash": "4qwk8IxpTSs56Hk3O56f4ggOqg6mg69tSZdRPQBMJWKEpqCYFKLH60D+MFE549oFMPG3Lgin+tvXNdAUY8vz8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.DataLoader\\CloudWeather.DataLoader.csproj",
+  "projectFilePath": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.DataLoader\\CloudWeather.DataLoader.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

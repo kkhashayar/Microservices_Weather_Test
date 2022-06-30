@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.Temprature\\CloudWeather.Temprature.csproj": {}
+    "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.Temprature\\CloudWeather.Temprature.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.Temprature\\CloudWeather.Temprature.csproj": {
+    "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.Temprature\\CloudWeather.Temprature.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.Temprature\\CloudWeather.Temprature.csproj",
+        "projectUniqueName": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.Temprature\\CloudWeather.Temprature.csproj",
         "projectName": "CloudWeather.Temprature",
-        "projectPath": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.Temprature\\CloudWeather.Temprature.csproj",
+        "projectPath": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.Temprature\\CloudWeather.Temprature.csproj",
         "packagesPath": "C:\\Users\\Khash\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.Temprature\\obj\\",
+        "outputPath": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.Temprature\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Khash\\AppData\\Roaming\\NuGet\\NuGet.Config",

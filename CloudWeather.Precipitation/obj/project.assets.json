@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.Precipitation\\CloudWeather.Precipitation.csproj",
+      "projectUniqueName": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.Precipitation\\CloudWeather.Precipitation.csproj",
       "projectName": "CloudWeather.Precipitation",
-      "projectPath": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.Precipitation\\CloudWeather.Precipitation.csproj",
+      "projectPath": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.Precipitation\\CloudWeather.Precipitation.csproj",
       "packagesPath": "C:\\Users\\Khash\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.Precipitation\\obj\\",
+      "outputPath": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.Precipitation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Khash\\AppData\\Roaming\\NuGet\\NuGet.Config",
