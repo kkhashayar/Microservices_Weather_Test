@@ -8,59 +8,226 @@
     ".NETCoreApp,Version=v6.0": {
       "CloudWeather.Temprature/1.0.0": {
         "dependencies": {
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Microsoft.EntityFrameworkCore": "7.0.0-preview.5.22302.2",
+          "Microsoft.EntityFrameworkCore.Design": "7.0.0-preview.5.22302.2",
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.0-preview.5.22302.2",
+          "Microsoft.Extensions.Logging": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Options": "7.0.0-preview.5.22301.12",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.0-preview.5"
         },
         "runtime": {
           "CloudWeather.Temprature.dll": {}
         }
       },
-      "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
-      "Microsoft.OpenApi/1.2.3": {
+      "Humanizer.Core/2.14.1": {
         "runtime": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "assemblyVersion": "1.2.3.0",
-            "fileVersion": "1.2.3.0"
+          "lib/net6.0/Humanizer.dll": {
+            "assemblyVersion": "2.14.0.0",
+            "fileVersion": "2.14.1.48190"
           }
         }
       },
-      "Swashbuckle.AspNetCore/6.2.3": {
+      "Microsoft.EntityFrameworkCore/7.0.0-preview.5.22302.2": {
         "dependencies": {
-          "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
-          "Swashbuckle.AspNetCore.Swagger": "6.2.3",
-          "Swashbuckle.AspNetCore.SwaggerGen": "6.2.3",
-          "Swashbuckle.AspNetCore.SwaggerUI": "6.2.3"
-        }
-      },
-      "Swashbuckle.AspNetCore.Swagger/6.2.3": {
-        "dependencies": {
-          "Microsoft.OpenApi": "1.2.3"
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.0-preview.5.22302.2",
+          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.0-preview.5.22302.2",
+          "Microsoft.Extensions.Caching.Memory": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Logging": "7.0.0-preview.5.22301.12"
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "assemblyVersion": "6.2.3.0",
-            "fileVersion": "6.2.3.0"
+          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30202"
           }
         }
       },
-      "Swashbuckle.AspNetCore.SwaggerGen/6.2.3": {
+      "Microsoft.EntityFrameworkCore.Abstractions/7.0.0-preview.5.22302.2": {
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30202"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Analyzers/7.0.0-preview.5.22302.2": {},
+      "Microsoft.EntityFrameworkCore.Design/7.0.0-preview.5.22302.2": {
         "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "6.2.3"
+          "Humanizer.Core": "2.14.1",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.0-preview.5.22302.2",
+          "Mono.TextTemplating": "2.2.1"
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "assemblyVersion": "6.2.3.0",
-            "fileVersion": "6.2.3.0"
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30202"
           }
         }
       },
-      "Swashbuckle.AspNetCore.SwaggerUI/6.2.3": {
+      "Microsoft.EntityFrameworkCore.Relational/7.0.0-preview.5.22302.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0-preview.5.22302.2",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.5.22301.12"
+        },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "assemblyVersion": "6.2.3.0",
-            "fileVersion": "6.2.3.0"
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30202"
           }
         }
-      }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/7.0.0-preview.5.22302.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "7.0.0-preview.5.22302.2"
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Options": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0-preview.5.22301.12": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Options": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/7.0.0-preview.5.22301.12": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Mono.TextTemplating/2.2.1": {
+        "dependencies": {
+          "System.CodeDom": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Mono.TextTemplating.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.1.1"
+          }
+        }
+      },
+      "Npgsql/7.0.0-preview.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.5.22301.12",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/7.0.0-preview.5": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0-preview.5.22302.2",
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.0-preview.5.22302.2",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.0-preview.5.22302.2",
+          "Npgsql": "7.0.0-preview.5"
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "System.CodeDom/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {}
     }
   },
   "libraries": {
@@ -69,47 +236,152 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
+    "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
-      "path": "microsoft.extensions.apidescription.server/3.0.0",
-      "hashPath": "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512"
+      "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
+      "path": "humanizer.core/2.14.1",
+      "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
-    "Microsoft.OpenApi/1.2.3": {
+    "Microsoft.EntityFrameworkCore/7.0.0-preview.5.22302.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
-      "path": "microsoft.openapi/1.2.3",
-      "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+      "sha512": "sha512-uvNmZDMstcwBSr0UHbSnh2wWeeoLukL07d2dO4O11QdpXQZI51RPdqWsyaUbvQN2V1/9KE7EtNVNDpOMIwXRFA==",
+      "path": "microsoft.entityframeworkcore/7.0.0-preview.5.22302.2",
+      "hashPath": "microsoft.entityframeworkcore.7.0.0-preview.5.22302.2.nupkg.sha512"
     },
-    "Swashbuckle.AspNetCore/6.2.3": {
+    "Microsoft.EntityFrameworkCore.Abstractions/7.0.0-preview.5.22302.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
-      "path": "swashbuckle.aspnetcore/6.2.3",
-      "hashPath": "swashbuckle.aspnetcore.6.2.3.nupkg.sha512"
+      "sha512": "sha512-mm+2tUVz4vqAK/kyO5/FwBiI3sYwVpi46WZWajzJIC1KrZq0hMbiYjAR88Z5KyzwAQWecK3LDtWX0/d6NvrjeQ==",
+      "path": "microsoft.entityframeworkcore.abstractions/7.0.0-preview.5.22302.2",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.7.0.0-preview.5.22302.2.nupkg.sha512"
     },
-    "Swashbuckle.AspNetCore.Swagger/6.2.3": {
+    "Microsoft.EntityFrameworkCore.Analyzers/7.0.0-preview.5.22302.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qOF7j1sL0bWm8g/qqHVPCvkO3JlVvUIB8WfC98kSh6BT5y5DAnBNctfac7XR5EZf+eD7/WasvANncTqwZYfmWQ==",
-      "path": "swashbuckle.aspnetcore.swagger/6.2.3",
-      "hashPath": "swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512"
+      "sha512": "sha512-X39oFMtgMp7ANNChLmcoklOvW3ZBAT/ThwQ5ixHr0WRMbH/wJ5Puhf9uhgpoCcvsZXAYNurNiaD+u1r7r4Bt7A==",
+      "path": "microsoft.entityframeworkcore.analyzers/7.0.0-preview.5.22302.2",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.7.0.0-preview.5.22302.2.nupkg.sha512"
     },
-    "Swashbuckle.AspNetCore.SwaggerGen/6.2.3": {
+    "Microsoft.EntityFrameworkCore.Design/7.0.0-preview.5.22302.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+Xq7WdMCCfcXlnbLJVFNgY8ITdP2TRYIlpbt6IKzDw5FwFxdi9lBfNDtcT+/wkKwX70iBBFmXldnnd02/VO72A==",
-      "path": "swashbuckle.aspnetcore.swaggergen/6.2.3",
-      "hashPath": "swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512"
+      "sha512": "sha512-RTmvVKSrnoeo0aIFqocrY+i7xni29+cHSXDPP1Z+e4VADCR8o8gCPUZYHp+Byk/m27bk+9BLPm3IJFuBaB6Gyw==",
+      "path": "microsoft.entityframeworkcore.design/7.0.0-preview.5.22302.2",
+      "hashPath": "microsoft.entityframeworkcore.design.7.0.0-preview.5.22302.2.nupkg.sha512"
     },
-    "Swashbuckle.AspNetCore.SwaggerUI/6.2.3": {
+    "Microsoft.EntityFrameworkCore.Relational/7.0.0-preview.5.22302.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bCRI87uKJVb4G+KURWm8LQrL64St04dEFZcF6gIM67Zc0Sr/N47EO83ybLMYOvfNdO1DCv8xwPcrz9J/VEhQ5g==",
-      "path": "swashbuckle.aspnetcore.swaggerui/6.2.3",
-      "hashPath": "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+      "sha512": "sha512-QWjAZ9JSYvJ/JoplpYwe+UNRGIF1FHwN00ey4wu5R0tK0aK7B+GFpXq7zwLi4uc6wXEC8i3cRymEMyNGFmxEIw==",
+      "path": "microsoft.entityframeworkcore.relational/7.0.0-preview.5.22302.2",
+      "hashPath": "microsoft.entityframeworkcore.relational.7.0.0-preview.5.22302.2.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/7.0.0-preview.5.22302.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ofGpCJYF16qGA6cGmuHFc5Jp7b86ap9XST3ceOq8U4vW/Jwm3q728woXWgFWjhnsFTuCt6wD9RKraowQ2FV2XQ==",
+      "path": "microsoft.entityframeworkcore.tools/7.0.0-preview.5.22302.2",
+      "hashPath": "microsoft.entityframeworkcore.tools.7.0.0-preview.5.22302.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nLofzSumX5zJndLJyGZyjQvLyLYNQFtHncKy0vccsT7lSMHyl0Y0Xk7S8CTSkZ8COQYzqyqESIw0WgJRs4d+MA==",
+      "path": "microsoft.extensions.caching.abstractions/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.caching.abstractions.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IwCqiAZZWuTF7kX8Vfcy7AyiqqNEXbjJzhN90MFklLeKiSDXnmf2/ipRk7ZppoH6xwXuAP01a2U0jGOO2WzLtQ==",
+      "path": "microsoft.extensions.caching.memory/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.caching.memory.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cRuv8N5SsuojpspUpJiyRnRPwuJqg+UkoTzhIyhCgTbqBsZhiiNpTVUu48qAmjZ9rhyy7FpApJ8zRrXIck/t+g==",
+      "path": "microsoft.extensions.configuration.abstractions/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-flmXLNORIEe6L2vxBazOs7DVwQ98HjnYO6UPTTOQtpKtpjaqYn40hnSpv0NnKnUZL2bYcNH3kqzJBKTLt8Ykyw==",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.dependencyinjection.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X2nIrjzKEBMOv/o6EmXk9Cqvg26JHq8N/9ElQkMJE0COIoE+0u5384mUnauBL/aDhrXm5fjojjtR6951Q2UTkg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vMTYF9137QN0jqioLsn9Qb+tF3LTylIUt6LRQzt8lMTK4X1L1offGsb/cpxR6cFGK16MdaQeKAI+nHFI1AHNbg==",
+      "path": "microsoft.extensions.logging/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.logging.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rjdq1q+UmLehZnuusvVjsYOWBNS/B9mGUE+oYs5aK/OjDhRTv/0LXZK6Y7J0t1zraikmZwalpxDn86XdNJb2Nw==",
+      "path": "microsoft.extensions.logging.abstractions/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.logging.abstractions.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-edAIsknNBWKED6BisCKw0i77VlatI1VAbZsemSoPwWYDFbzfxNLiJ0Qw60vySTaPeUQ/wfGDKPSI01UXGF4FaA==",
+      "path": "microsoft.extensions.options/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.options.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AHg0uD5Iz3wcJkbNmKNXIGdG8GT4KjYMuLfhx8StRAL3iq869ZKyN9F16S+qm9RkhwVO2IdWfYUg02npJYALOQ==",
+      "path": "microsoft.extensions.primitives/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.primitives.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Mono.TextTemplating/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
+      "path": "mono.texttemplating/2.2.1",
+      "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "Npgsql/7.0.0-preview.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C0dceAeiOKuar8cejBCWxii5Y83pAaBqAEypFlFP5gn+ieJzk1wPsAbCBfHBVBXavyurdBYJksIccd0rhiwdNw==",
+      "path": "npgsql/7.0.0-preview.5",
+      "hashPath": "npgsql.7.0.0-preview.5.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/7.0.0-preview.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m/TvzFqsA64PK+lh5EvmtDCMJ86s+QR7UY2LTAlApgrzqv1tIaqBcp2BmS/BnJ2OqMhrhERcDQMlFpkwIdjn8g==",
+      "path": "npgsql.entityframeworkcore.postgresql/7.0.0-preview.5",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.7.0.0-preview.5.nupkg.sha512"
+    },
+    "System.CodeDom/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
+      "path": "system.codedom/4.4.0",
+      "hashPath": "system.codedom.4.4.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     }
   }
 }
