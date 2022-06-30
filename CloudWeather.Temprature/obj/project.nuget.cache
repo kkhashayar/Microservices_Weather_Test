@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wdeb3bJs1yjguMb34n8BF7RZQj69IoRQfC+uOeLlZ4BFvyzFNT9AaMmGp+n+XWzgA0IKxgi9Skj+pm926ix83Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Khash\\Desktop\\Microservices_Weather_Repo\\CloudWeather.Temprature\\CloudWeather.Temprature.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Khash\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
