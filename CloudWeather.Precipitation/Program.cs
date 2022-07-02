@@ -19,9 +19,9 @@ builder.Services.AddDbContext<PrecipDbContext>(
  
 
 var app = builder.Build();
-
+// Get Request  
 // simple way of routing. using delicate for dynamic routing 
-app.MapGet("/obzervation/{zip}", async (string zip, [FromQuery] int? days, PrecipDbContext db) =>
+app.MapGet("/observation/{zip}", async (string zip, [FromQuery] int? days, PrecipDbContext db) =>
 {
     // Simple data check - filtering 
     if(days is null || days < 1 || days > 30 )
@@ -33,6 +33,15 @@ app.MapGet("/obzervation/{zip}", async (string zip, [FromQuery] int? days, Preci
 
     return Results.Ok(results);
 });
+
+// Post Request 
+app.MapPost("/observation", async (Precipitation precipitation, PrecipDbContext db) =>
+{
+    precipitation.CreatedOn = precipitation.CreatedOn.ToUniversalTime(); // some sort of mock data for now 
+    await db.AddAsync(precipitation);
+    await db.SaveChangesAsync();
+
+}); 
 
 
 app.Run();
