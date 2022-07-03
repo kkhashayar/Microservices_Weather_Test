@@ -43,3 +43,16 @@ C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\obj\Debug\net
 C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\obj\Debug\net6.0\CloudWeather.DataLoader.pdb
 C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\obj\Debug\net6.0\CloudWeather.DataLoader.genruntimeconfig.cache
 C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\obj\Debug\net6.0\ref\CloudWeather.DataLoader.dll
+C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Khash\Desktop\Microservices_Files\CloudWeather.DataLoader\obj\Debug\net6.0\CloudWeather.DataLoader.csproj.CopyComplete
