@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "4qwk8IxpTSs56Hk3O56f4ggOqg6mg69tSZdRPQBMJWKEpqCYFKLH60D+MFE549oFMPG3Lgin+tvXNdAUY8vz8g==",
+  "dgSpecHash": "qg3EoHI0VI4ZzwC5+VvL7HC53iBMJ9GqMB2+ZqzPfBMj1dHZ0TYqdh6aLLWUm3D+lLCFRI2uPHBaeTOhzVX9Lg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Khash\\Desktop\\Microservices_Files\\CloudWeather.DataLoader\\CloudWeather.DataLoader.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Khash\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0-preview.5.22301.12\\microsoft.extensions.configuration.7.0.0-preview.5.22301.12.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0-preview.5.22301.12\\microsoft.extensions.configuration.abstractions.7.0.0-preview.5.22301.12.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\7.0.0-preview.5.22301.12\\microsoft.extensions.configuration.environmentvariables.7.0.0-preview.5.22301.12.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0-preview.5.22301.12\\microsoft.extensions.configuration.fileextensions.7.0.0-preview.5.22301.12.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\microsoft.extensions.configuration.json\\7.0.0-preview.5.22301.12\\microsoft.extensions.configuration.json.7.0.0-preview.5.22301.12.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0-preview.5.22301.12\\microsoft.extensions.fileproviders.abstractions.7.0.0-preview.5.22301.12.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0-preview.5.22301.12\\microsoft.extensions.fileproviders.physical.7.0.0-preview.5.22301.12.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0-preview.5.22301.12\\microsoft.extensions.filesystemglobbing.7.0.0-preview.5.22301.12.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-preview.5.22301.12\\microsoft.extensions.primitives.7.0.0-preview.5.22301.12.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\system.text.encodings.web\\7.0.0-preview.5.22301.12\\system.text.encodings.web.7.0.0-preview.5.22301.12.nupkg.sha512",
+    "C:\\Users\\Khash\\.nuget\\packages\\system.text.json\\7.0.0-preview.5.22301.12\\system.text.json.7.0.0-preview.5.22301.12.nupkg.sha512"
+  ],
   "logs": []
 }
